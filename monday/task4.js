@@ -1,12 +1,8 @@
 
 
-
-function calledgreet (name)
+function greet (name)
 
 {
-    let x= 'hello' + karam ;
-
-    console.log(x);
-    return x;
-    
+    console.log(`Hello ${name}`); 
 }
+ greet("Karam");
