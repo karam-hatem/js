@@ -34,12 +34,9 @@ function setUserData(userData) {
             email: userData.userEmail,
             mobile: userData.userNumber,
         },
-        // {
-        //     name:"Abrar",
-        //     email:"abrar@hotmail.com",
-        //     mobile:"07777777777"
-        // }
+     
     ];
+
     var html = "<table  border='2'>";
     for (var i = 0; i < rows.length; i++) {
         html += "<tr>";
