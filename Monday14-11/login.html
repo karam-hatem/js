@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <style>
+    .ta{
+     border: 1px solid black;
+    margin: 25px;
+    /* padding: 100px; */
+    border-radius:25px;
+    font-size: 25px;
+    background-color:rgb(25, 123, 162);
+    text-align: left;
+    width:40%;
+    margin-left:500px;
+    margin-top: 100px;
+    padding-left: 50px;
+     }
+.div1{
+    margin-left: 50px;
+}
+p{
+    font-size: 60px;
+    margin-left:200px;
+}
+#Email{
+    font-size: 25px; 
+    margin-left: 50px; 
+}
+#Password{
+font-size:25px;
+margin-left:16px;
+}
+
+.Password{
+    margin-left:50px;
+}
+#click{
+    margin-bottom:50px;
+    font-size:30px;
+    border-radius:10px;
+    color: whitesmoke;
+    background-color:rgb(82, 71, 71);
+    padding:5px;
+    width:30%;
+    margin-left:200px;
+    margin-top: 30px;
+} 
+    </style>
+</head>
+<body>
+    <form class="ta account-form">
+        <p> Log in</p>
+        <div class="div1">
+            <label>Email</label>
+            <input  type="text"  name="Email" placeholder="Enter Email"   id="Email"><br><br>
+        </div>
+
+    <div>
+        <label class="Password">Password</label>
+        <input type="password"   name="Password"  placeholder="Password"  id="Password"><br><br>
+    </div>
+       <button type="button" onclick="Login()" id="click">login</button>
+</div>
+ </form>
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    color: rgb(0, 0, 0);
+   
+}
+
+.ta{
+    border: 1px solid black;
+    margin: 25px;
+    /* padding: 100px; */
+    border-radius:100px;
+    font-size: 25px;
+    background-color:rgb(25, 123, 162);
+    text-align: left;
+    width:40%;
+    margin-left:500px;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.div{
+    margin-left: 100px;
+}
+.div1{
+    margin-left: -13px;
+}
+p{
+    font-size: 60px;
+    margin-left: 100px;
+}
+#first_name{
+    font-size: 25px;  
+}
+
+#last_name{
+    font-size: 25px;
+}
+#User_name{
+    font-size: 25px;
+}
+#Email{
+font-size:25px;
+margin-left: 40px;
+}
+
+#Password{
+    font-size:25px;
+}
+#click{
+    margin-bottom:50px;
+    font-size:30px;
+    border-radius:10px;
+    color: whitesmoke;
+    background-color:rgb(101, 101, 101);
+    padding:10px;
+    width:35%;
+    margin-left:120px;
+    margin-top:20px;
+
+}
