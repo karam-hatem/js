@@ -3,7 +3,7 @@ async function getData(){
     const data= await response.json();
     console.log(response);
     console.log(data);
-    // var tabel
+    // var table
 
     var tabel= `<table border=2px>`;
     tabel+="<tr>";
